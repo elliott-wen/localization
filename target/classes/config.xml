@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<Anchors><!-- 定义节点的ID和坐标 -->
+		<anchor>
+			<id>1</id>
+			<X>0</X>
+			<Y>0</Y>
+			
+		</anchor>
+		<anchor>
+			<id>2</id>
+			<X>4.95</X>
+			<Y>0</Y>
+			
+		</anchor>
+		<anchor>
+			<id>3</id>
+			<X>4.95</X>
+			<Y>10.95</Y>
+			
+		</anchor>
+		<anchor>
+			<id>4</id>
+			<X>0</X>
+			<Y>10.95 </Y>
+			
+		</anchor>
+	</Anchors>
+	
+	<Communication><!-- 定义串口通信 -->
+		<Port>COM21</Port>
+		<BaudRate>56700</BaudRate>
+	</Communication>
+	
+</configuration>
